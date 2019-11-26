@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Windows Suite" parallel="tests" thread-count="1">
+    <parameter name="app" value="Microsoft.WindowsCalculator_8wekyb3d8bbwe!App"/>
+    <parameter name="appPackage" value=""/>
+    <parameter name="appActivity" value=""/>
+    <parameter name="bundleId" value=""/>
+    <test name="Win10">
+        <parameter name="deviceName" value="Win10"/>
+        <classes>
+            <!--<class name="UnComment and add the relative path to your test here"/>-->
+        </classes>
+    </test>
+</suite>

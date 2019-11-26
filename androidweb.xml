@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Android Web Troy Test Suite" parallel="tests" thread-count="1">
+    <parameter name="app" value=""/>
+    <parameter name="appPackage" value="com.android.chrome"/>
+    <parameter name="appActivity" value="com.google.android.apps.chrome.Main"/>
+    <parameter name="bundleId" value=""/>
+    <test name="HTC10">
+        <parameter name="deviceName" value="HTC10_8.0"/>
+        <classes>
+            <!--<class name="UnComment and add the relative path to your test here"/>-->
+        </classes>
+    </test>
+</suite>
